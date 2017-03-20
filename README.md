@@ -1,6 +1,6 @@
 1.clone 本项目
 
-2.进入musicVisualize
+2.进入musicVisualize目录
 
 3.执行命令 `supervisor bin/www`
 
