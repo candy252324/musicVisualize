@@ -1,0 +1,42 @@
+body{
+	background: #000;
+	color:#fff;
+}
+header{
+	height: 150px;
+	border:1px solid #fff;
+	margin-bottom: 10px;
+}
+li{
+	list-style: none;
+}
+header{
+	text-align: center;
+}
+.left{
+	float: left;
+	width: 30%;
+	height: 700px;
+	border:1px solid #fff;
+}
+.right{
+	float: right;
+	width: 68%;
+	height: 700px;
+	border:1px solid #fff;
+}
+.selected{
+	color:green;
+}
+#type li{
+	display: inline-block;
+	width: 80px;
+	padding: 5px;
+	color:#fff;
+	border:1px solid #fff;
+	cursor: pointer;
+}
+#type li.selected{
+	background: #fff;
+	color:#000;
+}
